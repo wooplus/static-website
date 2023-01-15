@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #23252c;
+}
+
+.App {
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #1a1b21;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  /* object-fit: fill; */
+  width: 100%;
+  height: 280px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+.position {
+  font-size: 14px;
+  color: #f3bf99;
+  margin-bottom: 8px;
+}
+
+.email {
+  margin: 5px 0 10px;
+  font-size: 13px;
+}
+
+.btn {
+  width: 120px;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.btn > a {
+  text-decoration: none;
+}
+
+.fa-envelope {
+  margin-right: 10px;
+}
+
+.fa-linkedin {
+  margin-right: 1px;
+}
+
+.linkedinBtn {
+  background-color: #5093e2;
+  border: none;
+  margin-left: 8px;
+}
+
+.linkedinBtn > a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.emailBtn > a {
+  color: black;
+  font-weight: 700;
+}
+
+.emailBtn {
+  margin-right: 8px;
+}
+
+.about-title,
+.interest-title {
+  text-align: left;
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.interest-title {
+  margin-top: 10px;
+}
+
+.about-text,
+.interest-text {
+  text-align: left;
+  margin-left: 25px;
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.interest-text {
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #161619;
+  /* height: 100px; */
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-github {
+  cursor: pointer;
+  background-color: #918e9b;
+  /* padding: 10px; */
+}
+
+.icon-btn {
+  background-color: #918e9b;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.icon-btn a {
+  text-decoration: none;
+}
